@@ -1,0 +1,428 @@
+body {
+    background-color: rgb(201, 199, 199);
+}
+
+.main-body {
+    position: relative;
+    background-image: url("./background.jpg");
+    width: 1099px;
+    height: 677px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.top-menu {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 250px;
+}
+
+.top-right-menu {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 800px;
+}
+
+.top-text {
+    color: rgb(245, 244, 244);
+    font-family: "Lucida Sans Unicode", Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 23px;
+    float: left;
+    font-size: 14px;
+}
+
+.orange-background {
+    margin-left: 37px;
+    width: 145px;
+    height: auto;
+    background-color: rgb(245, 141, 4);
+    padding: 8px 8px;
+    border-radius: 30px;
+    margin-top: -8px;
+    text-align: center;
+}
+
+.middle-left-side {
+    width: 300px;
+    height: 500px;
+    color: white;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 130px;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+.middle-left-side h1 {
+    font-weight: 900;
+    font-size: 220%;
+}
+
+.middle-left-side p {
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    color: rgb(231, 231, 231);
+}
+
+.underline {
+    width: auto;
+    height: 40px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-bottom: solid 1px rgb(117, 114, 114);
+    padding-bottom: 25px;
+}
+
+.middle-small-text {
+    color: rgb(211, 211, 211);
+    font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.first {
+    margin-right: 40px;
+}
+
+.middle-big-text {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.months-word {
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.white-background {
+    font-size: 11px;
+    background-color: rgb(250, 250, 250);
+    padding: 8px 18px;
+    border-radius: 30px;
+    margin-top: -8px;
+    text-align: center;
+    color: rgb(58, 27, 58);
+}
+
+.middle-small-text div {
+    float: left;
+}
+
+.excmark {
+    color: rgb(58, 27, 58);
+    background-color: rgb(196, 193, 193);
+    border-radius: 90%;
+    width: 15px;
+    height: 15px;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 5px;
+    font-family: Arial;
+}
+
+.box-middle-top {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 530px;
+    width: 233px;
+    height: 100px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 27px 40px 199px -32px rgba(150, 150, 150, 1);
+    z-index: 10;
+    font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.box-middle-top img {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 15px;
+    float: left;
+}
+
+.box-middle-top div {
+    float: left;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+span.number {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+span.text {
+    font-size: 14px;
+    color: rgb(122, 122, 122);
+}
+
+.box-right {
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 760px;
+    width: 203px;
+    height: 280px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 27px 40px 199px -32px rgb(201, 199, 199);
+    z-index: 9;
+    padding: 50px;
+}
+
+.box-middle-bottom {
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 480px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 27px 40px 199px -32px rgb(201, 199, 199);
+    z-index: 11;
+    padding: 20px;
+}
+
+.diamond-purple {
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-bottom-color: rgb(63, 14, 78);
+    position: relative;
+    top: -6px;
+    float: left;
+}
+
+.diamond-purple:after {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 6px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-top-color: rgb(63, 14, 78);
+}
+
+.diamond-blue {
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-bottom-color: rgb(48, 177, 228);
+    position: relative;
+    top: -6px;
+    float: left;
+}
+
+.diamond-blue:after {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 6px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-top-color: rgb(48, 177, 228);
+}
+
+.interest-text {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.small-text {
+    float: left;
+    font-size: 14px;
+    color: rgb(121, 121, 121);
+    margin-left: 10px;
+}
+
+.small-ammount {
+    float: right;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.border-line {
+    border-bottom: solid 0.7px rgb(187, 187, 187);
+    width: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.margin {
+    margin-top: 6px;
+}
+
+.big-ammount {
+    font-weight: bold;
+    font-size: 23px;
+    font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.big-ammount span {
+    font-size: 18px;
+}
+
+.chart-img img {
+    width: 44px;
+    height: 40px;
+    float: left;
+}
+
+.small-small-text {
+    float: left;
+    width: 130px;
+    height: 30px;
+    margin-left: 20px;
+    color: rgb(158, 158, 158);
+    font-size: 10px;
+    font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.vl {
+    border-right: solid 0.6px rgb(148, 148, 148);
+    height: 160px;
+    width: 43px;
+    float: left;
+    color: rgb(158, 157, 157);
+    font-size: 10px;
+    font-family: Helvetica;
+}
+
+.chart {
+    margin-top: 45px;
+    margin-left: 7px;
+}
+
+.vl div {
+    margin-top: 150px;
+    margin-left: 5px;
+    margin-right: 3px;
+    float: right;
+}
+
+.vl div.break {
+    margin-top: 18.2px;
+}
+
+.zero {
+    padding-left: 10px;
+}
+
+.vl div.start {
+    margin-top: 1px;
+}
+
+.blue-chart {
+    clip-path: polygon(0 87%, 100% 54%, 100% 100%, 0% 100%);
+    background: rgb(73, 193, 240);
+    height: 100px;
+    width: 175px;
+    position: absolute;
+    z-index: 15;
+    margin-top: 27px;
+    margin-left: 50px;
+}
+
+.purple-chart {
+    clip-path: polygon(0 85%, 100% 25%, 100% 70%, 0 100%);
+    background: rgb(83, 25, 100);
+    height: 100px;
+    width: 175px;
+    position: absolute;
+    z-index: 16;
+    margin-top: 17px;
+    margin-left: 50px;
+}
+
+.circle {
+    width: 9px;
+    height: 9px;
+    border: solid 3px rgba(255, 255, 255, 0.911);
+    border-radius: 90%;
+    background-color: rgb(83, 25, 100);
+    margin-top: 48px;
+    margin-left: 174px;
+    position: absolute;
+    z-index: 20;
+}
+
+.bubble-shadow {
+    filter: drop-shadow(20px 21px 32px rgba(0,0,0,0.19));
+}
+
+.bubble {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 55% 75%, 50% 80%, 45% 75%, 0% 75%);
+    border: transparent;
+    border-radius: 2%;
+    width: 157px;
+    height: 135px;
+    margin-top: -72px;
+    margin-left: 103px;
+    position: absolute;
+    z-index: 19;
+    background-color: rgb(250, 250, 250);
+}
+
+.year {
+    text-align: center;
+    margin-top: 7px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.blue-line {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: auto;
+    border-bottom: solid 7px rgb(73, 193, 240);
+    border-radius: 30px;
+}
+
+.purple-line {
+    margin-left: 15px;
+    width: 60px;
+    border-bottom: solid 7px rgb(83, 25, 100);
+    border-radius: 30px;
+    float: left;
+}
+.bubble-text {
+    padding: 10px;
+    font-size: 9px;
+    font-family: Arial, sans-serif;
+}
+.number-left {
+    float: left;
+    padding-right: 30px;
+    margin-left: 8px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.number-right {
+    float: right;
+    margin-right: 15px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.text-left {
+    color: grey;
+    float: left;
+}
+
+.text-right {
+    color: grey;
+    float: right;
+}
